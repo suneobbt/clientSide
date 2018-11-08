@@ -1,0 +1,38 @@
+Javascript. Lista de ejercicios I
+
+1. Solicitar un número y presentar su tabla de multiplicar.
+
+2. Presentar en la página el texto “Javascript” en los 6 diferentes tipos de cabecera
+HTML, de mayor a menor.
+
+3. El factorial de un número entero n es una operación matemática que consiste en
+multiplicar todos los factores n x (n-1) x (n-2) x ... x 1. Así, el factorial de 5 (escrito
+como 5!) es igual a: 5! = 5 x 4 x 3 x 2 x 1 = 120. Utilizando la estructura for, crear un
+script que calcule el factorial de un número entero.
+
+4. Definir una función que muestre información sobre una cadena de texto que se le
+pasa como argumento. A partir de la cadena que se le pasa, la función determina si esa
+cadena está formada sólo por mayúsculas, sólo por minúsculas o por una mezcla de
+ambas.
+
+5. Leer una cadena de texto mediante el método prompt() y generar un array con las
+palabras que contiene. Posteriormente, mostrar la siguiente información:
+Número de palabras
+Primera palabra y última palabra
+Las palabras colocadas en orden inverso
+Las palabras ordenadas de la a la z
+Las palabras ordenadas de la z a la a
+
+6. Crear un array llamado meses y que almacene el nombre de los doce meses del año.
+Mostrar por pantalla los doce nombres utilizando la función alert().
+
+7. Escribir el código de una función a la que se pasa como parámetro un número entero
+y devuelve como resultado una cadena de texto que indica si el número es par o impar.
+Mostrar por pantalla el resultado devuelto por la función.
+
+8. Definir una función que determine si la cadena de texto que se le pasa como
+parámetro es un palíndromo, es decir, si se lee de la misma forma desde la izquierda y
+desde la derecha. Ejemplo de palíndromo complejo: "La ruta nos aporto otro paso
+natural".
+
+9. El juego del ahorcado.
