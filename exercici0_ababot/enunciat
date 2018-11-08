@@ -1,0 +1,93 @@
+#    Exercici u1e1_numeros
+Crea un programa en el que creis 5 variables numèriques (enter, decimal, científic, octal
+i hexadecimal)
+Mostra el seu valor en un document HTML. (Escriu en el document).
+Comenta el codi, indicant autor i nom de l’exercici.
+
+#    Exercici u1e2_cadenes
+Crea un programa que crei 4 variables de tipus cadena amb els següents valors, “Hola”,
+“7”, “13” i “Adeu”.
+Mostra en un Alert una frase que contengui cometes simples.
+Mostra a un Alert que ocupi una línia de codi les variables 1 i 4 separades per un salt de
+línia.
+Mostra en un Alert la suma de les variables 2 i 3.
+Mostra a un Alert la suma de totes les variables.
+Comenta el codi indicant autor i nom de l’exercici.
+
+#    Exercici u1e3_comparació
+Crea un programa en el que mostris el resultat de diverses operacions mitjançant Alert, mostrant el text exacte
+de la operació realitzada i el seu resultat.
+Ex:
+var operacion1 = 10==10,
+alert(“La operacion 10==10 es ”+operacion1);
+Les operacions a realitzar són:
+- 10 == 10 - “Laura” == “laura” - “123” == 123
+- 10 === 10 - “Laura” > “laura” - “123” === 123
+- 10 === 10.0 - “Laura” < “laura”- parseInt(“123”) === 123
+Comenta el codi indicant autor i nom de l’exercici.
+
+#   Exercici u1e4_ifelse
+Crea un programa que demani al usuari que introdueixi una edad i mostri el següent
+missatge en funció del número introduït.
+- 0-12 Nen
+- 13-26 Jove
+- 26-60 Adult
+- >60 Jubilat
+Per guardar el valor del usuari podem utilitzar:
+var resposta = prompt(“Mensaje”);
+També cal comprovar que no s’introdueixin números fora de rang. Comenta el codi
+amb els comentaris que trobis oportuns, nom i títol del exercici.
+
+#     Exercici u1e5_for
+Crea un programa que generi un llista d’hores que vagin des de les 9 fins les 21:30 de 30
+min en 30 min.
+Enlloc de emprar alert, utilitzeu la instrucció document.write(“Missatge”) que mostra
+les dades en el HTML.
+Tindràs que emprar un for per les hores i una variable booleana que anirà canviant a
+TRUE o FALSE si es hora en punt o i mitja.
+Comenta el codi amb els comentaris oportuns, autor i nom de l’exercici.
+
+#   Exercici u1e6_for2
+Crea un programa que crei un llista d’hores que vagi de les 9 fins les 21 de 5 min en 5
+min.
+Utilitza document.write
+Comenta el codi amb els comentaris oportuns, autor i nom de l’exercici
+
+#   Exercici u1e7_while
+Crea un control parental per que no es pugui entrar a una pàgina.
+Es demanarà a l’usuari que escrigui el cognom d’algun personatge (Pregunta el que
+vulguis).
+Mentre l’usuari no introdueixi el valor correcte, el missatge seguirà sortint.
+Comenta el codi amb els comentaris oportuns, autor i nom de l’exercici.
+
+#   Exercici u1e8_while2
+Modifica l’exercici anterior de la següent manera:
+- Es càrrega la mateixa pregunta que abans.
+- En cas que l’usuari introdueixi el nom i el cognom malament, mostrarem “ERROR,
+intenta un altre cop” i una altre vegada la pregunta.
+- Si introdueix el nom correctament, mostrarem el missatge “Et falta el cognom” i
+una altre vegada la pregunta.
+- Si introdueix el cognom correctament, mostrarem el missatge “Et falta el nom” i
+una altre vegada la pregunta.
+Comenta el codi com creguis oportú i l’autor i el nom de l’exercici.
+
+#   Exercici u1e9_switch
+Modifica el programa ifelse per què funciono amb SWITCH
+Comenta el programa, autor i nom de l’exercici.
+
+#   Exercici final
+Realitza una pàgina amb un script que calculi el valor de la lletra del NIF.
+Algoritme:
+- Comprovar el que el num està entre 0 i 99999999.
+- Calcula el “resto” de la divisió entra el num de DNI i el num 23.
+- Selecciona la lletra dins l’array corresponent:
+- var letras = [‘T’, ‘R’, ‘W’, ‘A’, ‘G’, ‘M’, ‘Y’, ‘F’, ‘P’, ‘D’, ‘X’, ‘B’, ‘N’, ‘J’, ‘Z’, ‘S’, ‘Q’, ‘V’, ‘H’, ‘L’, ‘C’, ‘K’, ‘E’, ‘T’];
+- L’script ha de demanar el num al usuari.
+- Si el num no es correcte, indica un misstage d’error.
+- Si es correcte, calcular i mostra el NIF.
+Quan acabis, realitza el mateix amb botons per introduïr els num 1 a 1. (IG)
+
+
+
+
+
